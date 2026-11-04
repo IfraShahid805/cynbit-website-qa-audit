@@ -1,0 +1,6 @@
+﻿ID,Category,Finding,Priority,Classification,Evidence,Recommendation,Status
+OBS-01,Performance,Services page mobile Lighthouse: LCP 5.7 s,High,Performance improvement,Lighthouse metric; one recorded run,"Investigate hero rendering, font loading and critical resources",Open
+OBS-02,Performance,Services page mobile Lighthouse: Speed Index 5.5 s,Medium,Performance improvement,Lighthouse metric; one recorded run,Review critical rendering path and above-the-fold assets,Open
+OBS-03,Performance,Services page mobile Lighthouse: TBT 530 ms,Medium,Performance improvement,Lighthouse metric; one recorded run,Profile long tasks and reduce/defer non-critical JavaScript,Open
+OBS-04,Best Practices,Lighthouse score 77/100; 11 passed and 2 not applicable; no failed item identified in inspected sections,Medium,Investigation required,Cause of score deduction not confirmed,Re-run Lighthouse and inspect all flagged/diagnostic items before assigning a defect,Needs investigation
+OBS-05,Accessibility,Lighthouse Accessibility score 90/100,Medium,Investigation required,Exact failed audit details not recorded,"Inspect exact Accessibility findings and manually verify labels, contrast and screen-reader behaviour",Needs investigation

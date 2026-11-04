@@ -1,24 +1,47 @@
-# Cynbit Website Quality Assurance Audit
+# Cynbit Website – QA Testing & Audit
 
-**Assessment:** QA Testing Intern – Website Quality Audit  
-**Website:** https://www.cynbit.in  
-**Audit date:** 4 November 2026  
-**Status:** Manual checks and one Lighthouse run documented; findings are limited to the evidence collected.
+## Project Overview
+This project documents a manual Quality Assurance (QA) assessment of the Cynbit website.
 
-## Repository contents
+The assessment focuses on usability, accessibility, functional testing, mobile responsiveness, and website performance.
 
-- `reports/qa-audit-report.md` — scope, methodology, environment, results and limitations.
-- `reports/bug-and-issue-log.csv` — observed issues and items requiring further investigation.
-- `reports/improvement-recommendations.md` — prioritised recommendations.
-- `reports/test-cases.csv` — executed manual test cases and outcomes.
-- `test-evidence/README.md` — instructions for adding original screenshots.
+## Website Tested
+https://cynbit.in
 
-## How to review
+## Testing Scope
+- Manual functional testing
+- Keyboard accessibility testing
+- Mobile responsiveness
+- Form validation
+- Lighthouse performance assessment
+- HTTPS redirection
 
-Start with `reports/qa-audit-report.md`, then review the issue log and recommendations.
+## Project Files
 
-## Evidence and limitations
+### QA Reports
+- [QA Audit Report](reports/qa-audit-report.md)
+- [Test Cases](reports/test-cases.csv)
+- [Bug and Issue Log](reports/bug-and-issue-log.csv)
+- [Improvement Recommendations](reports/improvement-recommendations.md)
 
-The report is based on manual browser checks and the Lighthouse results recorded during the assessment. No source-code review, automated regression suite, penetration test, or exhaustive WCAG audit was performed. Lighthouse metrics apply specifically to the **Services page in mobile mode** and should not be generalised to every page or device.
+### Test Evidence
+- [Testing Evidence PDF](test-evidence/test-evidence.pdf)
 
-No screenshots are included in this package because original evidence images were not available to attach when the files were prepared. Add your own unaltered screenshots to `test-evidence/` and reference them in the report before submission.
+## Tools Used
+- Google Chrome
+- Chrome DevTools
+- Lighthouse
+- Manual testing
+
+## Key Findings
+The assessment identified opportunities to improve website performance and accessibility.
+
+No confirmed functional defects were identified during the documented testing.
+
+## Limitations
+This assessment represents a limited manual QA review. It is not an exhaustive security audit or a complete WCAG compliance assessment.
+
+## Author
+Ifra Shahid
+
+B.Tech Biotechnology
